@@ -1,0 +1,20 @@
+@use '../../../assets/styles/size' as *;
+
+.swiper-wrapper {
+    margin-block: 20px;
+}
+
+.swiper-slide {
+    display: grid !important;
+    grid-template-rows: 1fr fluid-size(30, 50);
+    color: red;
+    background: var(--main-color-1);
+}
+
+.swiper-line {
+    background: linear-gradient(to right, var(--main-color-1), var(--main-color-2));
+}
+
+.slide-img {
+    max-width: 100%;
+}
