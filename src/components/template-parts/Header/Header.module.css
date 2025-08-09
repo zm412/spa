@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 .header-inner {
+    display: flex;
+    justify-content: space-between;
 	height: 70px;
 	background: var(--bg-header);
 	box-sizing: border-box;
 	border-radius: 72px;
     border: solid 1px var(--border-header);
 	padding-inline: 32px;
-	display: grid;
-	gap: 32px;
-    grid-template-columns: 25% 50% 20%;
 }
 
 @media (max-width: 991px) {
@@ -48,6 +47,7 @@
 .custom-nav {
 	display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .nav-item {
@@ -66,9 +66,9 @@
 }
 
 .nav-button {
-	inline-size: 121px;
+    inline-size: 100%;
 	block-size: 41px;
-	background: #01F0D0;
+	background: var(--logo-fill);
 	border-width: 0;
 	border-radius: 41px;
 }

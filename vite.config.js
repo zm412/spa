@@ -13,9 +13,12 @@ export default defineConfig({
             "@": path.resolve(__dirname, "src"),
         },
     },
-    base: "/spa_static/",
+    base: "./",
     build: {
         outDir: "dist",
         assetsDir: "assets",
+    },
+    optimizeDeps: {
+        exclude: ["swiper"],
     },
 });

@@ -9,27 +9,33 @@ import CellsInfoBlock from "./Cells/CellsInfoBlock.jsx";
 const Honeycomb = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
     const [headerText, setText] = useState("Skills");
-    const [currentCell, setCurrentCell] = useState({})
-    console.log(currentCell, 'kjljkjlkj')
+    const [currentCell, setCurrentCell] = useState({});
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-    console.log(isMobile, 'isMobile')
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     return (
-        <section className={styles.honeycomb}>
-            <div className={styles.honeycomb_block}>
-                <FullView isMobile={isMobile} setCurrentCellHandler={setCurrentCell} currentCell={currentCell}/>
-            </div>
+        <section>
+            <div className={styles.honeycomb}>
+                <div className={styles.honeycomb_block}>
+                    <FullView
+                        isMobile={isMobile}
+                        setCurrentCellHandler={setCurrentCell}
+                        currentCell={currentCell}
+                    />
+                </div>
 
-            <div className={styles.honeycomb_info}>
-                <CellsInfoBlock imgUrl={currentCell && currentCell.imgUrl || ''} />
+                <div className={styles.honeycomb_info}>
+                    <CellsInfoBlock
+                        imgUrl={(currentCell && currentCell.imgUrl) || ""}
+                    />
+                </div>
             </div>
         </section>
     );

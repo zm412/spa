@@ -2,9 +2,12 @@ import Hero from "../template-parts/Hero/Hero.jsx";
 import Header from "../template-parts/Header/Header.jsx";
 import SwiperLink from "../template-parts/SwiperLink/SwiperLink.jsx";
 import Honeycomb from "../template-parts/Honeycomb/Honeycomb.jsx";
-import styles from './DevCard.module.css';
-import '../../assets/styles/grid.scss'
-import { Progress } from 'progress';
+import ProgressCustom from "../template-parts/ProgressCustom/ProgressCustom.jsx";
+import DataVisualisation from "../template-parts/DataVisualisation/DataVisualisation.jsx";
+import DndTree from "../template-parts/DndTree/DndTree.jsx";
+import styles from "./DevCard.module.css";
+import "../../assets/styles/grid.scss";
+import { Progress } from "progress";
 
 const DevCard = () => {
     return (
@@ -14,8 +17,8 @@ const DevCard = () => {
             <div className="custom-container">
                 <SwiperLink />
                 <Honeycomb />
-                <Progress />
-                <h1>JJJJJJJJJjjj</h1>
+                <DndTree />
+                <DataVisualisation />
             </div>
         </div>
     );

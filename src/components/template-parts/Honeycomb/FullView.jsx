@@ -6,8 +6,6 @@ import { mask2, mask3 } from "./masks.js";
 
 const FullView = ({isMobile, setCurrentCellHandler, currentCell}) => {
     const currentMask = isMobile ? mask3 : mask2;
-    console.log(isMobile,'FFFFFFFFFFFFFFFFFFFf')
-    console.log(currentMask, "CURR")
     const viewWidth = isMobile ? 280 : 770 
     const viewHeight = isMobile ? 1400 : 620
     const viewBox = `0 0 ${viewWidth} ${viewHeight}`
@@ -26,6 +24,7 @@ const FullView = ({isMobile, setCurrentCellHandler, currentCell}) => {
                     row.map((cell, j) => {
                         return (
                             <Cells
+                                key={""+j+i}
                                 i={i}
                                 j={j}
                                 cell={cell}

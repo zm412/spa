@@ -4,7 +4,7 @@ import styles from "../Honeycomb.module.scss";
 
     return (
         <div className={styles.image_info}>
-            <img src={imgUrl} alt="" />
+            <img src={imgUrl || '#'} alt="" />
         </div>
     );
 };

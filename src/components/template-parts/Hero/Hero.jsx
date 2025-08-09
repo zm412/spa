@@ -4,7 +4,7 @@ import { useTheme } from '../../../contexts/ThemeContext';
 
 const Hero = () => {
   const { theme } = useTheme();
-    console.log(theme, 'THEME')
+    //console.log(theme, 'THEME')
 
     return (
      <section className={styles.hero}>

@@ -1,0 +1,14 @@
+$primary: #ff5722;  // Основной цвет (btn-primary, ссылки и т.д.)
+$secondary: #4caf50; // Вторичный цвет
+$success: #00c853;
+$danger: #e53935;
+$warning: #a1aaeefc;
+$info: #29b6f6;
+$light: #f1f1f1;
+$dark: #212121;
+
+// Пример: меняем border-radius для кнопок
+$btn-border-radius: 8px;
+
+// Теперь подключаем Bootstrap
+@import "bootstrap/scss/bootstrap";

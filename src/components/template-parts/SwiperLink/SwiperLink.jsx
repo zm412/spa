@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import swiperLinkPortalImg from "../../../assets/img/swiperLinkPortalImg.png";
 import styles from "./SwiperLink.module.scss";
 import "./SwiperLink.css";
 
@@ -11,8 +10,6 @@ const SwiperLink = () => {
     return (
         <Swiper
             slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
             className={styles.swiper}
             breakpoints={{
                 768: {
@@ -33,7 +30,7 @@ const SwiperLink = () => {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src={swiperLinkPortalImg}
+                            src={ "/img/swiperLinkPortalImg.png"}
                             alt="Preview of Example"
                             className={ styles[ "slide-img" ] }
                         />

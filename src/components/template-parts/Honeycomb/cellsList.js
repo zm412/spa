@@ -53,10 +53,10 @@ export const cellsList = {
         {
             color: "frontend",
             class: "cell_text_division",
-            icon: "/spa_static/img/cat2-icon.svg",
+            icon: "/img/cat2-icon.svg",
             label: "Frontend",
             link: "#",
-            imgUrl: "/spa_static/img/cells/frontend.jpg"
+            imgUrl: "/img/cells/frontend.jpg"
         },
     ],
 
@@ -113,7 +113,7 @@ export const cellsList = {
         {
             color: "backend",
             class: "cell_text_division",
-            icon: "/spa_static/img/cat3-icon.svg",
+            icon: "/img/cat3-icon.svg",
             label: "Backend",
             link: "#",
         },
@@ -144,7 +144,7 @@ export const cellsList = {
         {
             color: "devops",
             class: "cell_text_division",
-            icon: "/spa_static/img/cat-icon.svg",
+            icon: "/img/cat-icon.svg",
             label: "DevOps & Deployment",
             link: "#",
         },
@@ -175,7 +175,7 @@ export const cellsList = {
         {
             color: "tools",
             class: "cell_text_division",
-            icon: "/spa_static/img/cat4-icon.svg",
+            icon: "/img/cat4-icon.svg",
             label: "Tools & Workflow",
             link: "#",
         },

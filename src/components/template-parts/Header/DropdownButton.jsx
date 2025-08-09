@@ -6,8 +6,6 @@ function DropdownButtonOutline({onChangeFunc}) {
     const { theme, changeTheme } = useTheme();
 
     const handleClick = (eventKey, event) => {
-        console.log(eventKey, 'Клик по пункту меню');
-        console.log(event, 'TTTTTTTTTTTT');
         event.preventDefault();
         event.persist();
         event.stopPropagation();
