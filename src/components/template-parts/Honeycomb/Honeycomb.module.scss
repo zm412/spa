@@ -1,7 +1,6 @@
 @use '../../../assets/styles/size' as *;
 .honeycomb {
     display: grid;
-    grid-template-columns: 60% 39%;
     gap: 1%;
 }
 

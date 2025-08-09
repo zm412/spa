@@ -1,0 +1,21 @@
+.Progress {
+    padding-block: 50px;
+}
+
+.MainBar-static {
+    background: -webkit-linear-gradient(
+        90deg,
+        #3f4267,
+        #5d64a3
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        90deg,
+        #3f4267,
+        #5d64a3
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.checkbox-container-static input[type="checkbox"]:checked {
+    background-color: #45539a !important;
+    border-color: #45539a !important;
+}
