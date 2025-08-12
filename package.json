@@ -16,6 +16,7 @@
     "mobx": "^6.13.7",
     "mobx-react-lite": "^4.1.0",
     "progress": "git+ssh://git@github.com:zm412/progress.git",
+    "soty": "git+ssh://git@github.com:zm412/soty.git",
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
