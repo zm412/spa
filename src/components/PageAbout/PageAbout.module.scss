@@ -1,0 +1,34 @@
+* {
+}
+
+.about {
+    text-align: start;
+}
+
+.card {
+    text-align: start;
+    padding-block: 60px;
+
+    h2, .email {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    h3 {
+        margin-block: 20px;
+        font-size: 35px;
+    }
+
+    div {
+        font-size: 22px;
+    }
+
+    .buttonBack {
+        padding-block: 35px;
+
+    }
+}
+
+.email {
+
+}

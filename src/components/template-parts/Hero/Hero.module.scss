@@ -1,5 +1,5 @@
 .hero {
-    color: var(--main-color-1) ;
+    color: var(--hero-color) ;
     height: 400px;
     width: 100%;
 }
@@ -10,18 +10,18 @@
     #background-color: #40322a;
     #background-color: #2f1b0f;
     background-color: var(--bg-hero-color);
-    background-image: var(--bg-hero-1), var(--bg-hero-2), var(--bg-hero-3),
-        var(--bg-hero-4);
-    background-repeat: var(--bg-hero-repeat-1), var(--bg-hero-repeat-2),
-        var(--bg-hero-repeat-3), var(--bg-hero-repeat-4);
-    background-position: var(--bg-hero-pos-1), var(--bg-hero-pos-2),
-        var(--bg-hero-pos-3), var(--bg-hero-pos-4);
-    background-size: var(--bg-hero-size-1), var(--bg-hero-size-2),
-        var(--bg-hero-size-4), var(--bg-hero-size-4);
+    background-image: var(--bg-hero-2), var(--bg-hero-3),
+        var(--bg-hero-4), var(--bg-hero-1);
+    background-repeat: var(--bg-hero-repeat-2),
+        var(--bg-hero-repeat-3), var(--bg-hero-repeat-4),  var(--bg-hero-repeat-1);
+    background-position:var(--bg-hero-pos-2),
+        var(--bg-hero-pos-3), var(--bg-hero-pos-4),  var(--bg-hero-pos-1);
+    background-size: var(--bg-hero-size-2),
+        var(--bg-hero-size-4), var(--bg-hero-size-4), var(--bg-hero-size-1);
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: var(--hero-bg);
     width: 100%;
     height: 100%;
     display: flex;
@@ -34,6 +34,12 @@
     #font-size: 24px;
      font-size: fluid-size(16, 24);
 
+}
+
+.content {
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 15px;
 }
 
 .content h1 {

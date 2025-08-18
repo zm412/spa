@@ -40,22 +40,70 @@ const SwiperLink = () => {
             </SwiperSlide>
 
             <SwiperSlide className={styles.slide}>
-                <div></div>
+                <div>
+                    <a
+                        href="https://zm410.pythonanywhere.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={ "/img/swiperLinkPortalImg.png"}
+                            alt="Preview of Example"
+                            className={ styles[ "slide-img" ] }
+                        />
+                    </a>
+                </div>
                 <div className={styles["swiper-line"]}></div>
             </SwiperSlide>
 
             <SwiperSlide className={styles.slide}>
-                <div></div>
+                <div>
+                    <a
+                        href="https://zm410.pythonanywhere.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={ "/img/swiperLinkPortalImg.png"}
+                            alt="Preview of Example"
+                            className={ styles[ "slide-img" ] }
+                        />
+                    </a>
+                </div>
                 <div className={styles["swiper-line"]}></div>
             </SwiperSlide>
 
             <SwiperSlide className={styles.slide}>
-                <div></div>
+                <div>
+                    <a
+                        href="https://zm410.pythonanywhere.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={ "/img/swiperLinkPortalImg.png"}
+                            alt="Preview of Example"
+                            className={ styles[ "slide-img" ] }
+                        />
+                    </a>
+                </div>
                 <div className={styles["swiper-line"]}></div>
             </SwiperSlide>
 
             <SwiperSlide className={styles.slide}>
-                <div></div>
+                <div>
+                    <a
+                        href="https://zm410.pythonanywhere.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={ "/img/swiperLinkPortalImg.png"}
+                            alt="Preview of Example"
+                            className={ styles[ "slide-img" ] }
+                        />
+                    </a>
+                </div>
                 <div className={styles["swiper-line"]}></div>
             </SwiperSlide>
         </Swiper>

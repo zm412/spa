@@ -3,16 +3,24 @@ import React from "react";
 import "./App.scss";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import DevCard from "./components/DevCard/DevCard.jsx";
+import PageAbout from "./components/PageAbout/PageAbout.jsx";
+import Header from "./components/template-parts/Header/Header.jsx";
+import Hero from "./components/template-parts/Hero/Hero.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-    const [count, setCount] = useState(0);
+    const [currentPage, setCurrentPage] = useState("default");
+    const page = currentPage == "default" ? <DevCard /> : <PageAbout />;
+
+    const changePage = (page) => setCurrentPage(page)
 
     return (
         <ThemeProvider>
-            <DevCard />
+            <Header page={currentPage} changePage={changePage} />
+            <Hero />
+            { page }
             <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
+               onezmumpi@gmail.com 
             </p>
         </ThemeProvider>
     );

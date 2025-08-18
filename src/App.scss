@@ -46,6 +46,7 @@
     --mobile-size: 991px;
     --logo-fill: #a1aaeefc;
     --logo-stroke: #6941cd;
+    --hero-bg: rgba(0, 0, 0, 0.3);
     --bg: #303248;
     --bg-header: none;
     --bg-hero-1: url('/img/stars.png');
@@ -68,11 +69,48 @@
     --bg-hero-size-3: auto;
     --bg-hero-size-4: auto;
     --bg-hero-color: #6a6f96;
+    --hero-color: #eeb1b1;
 
     --main-color-1: #eeb1b1;
     --main-color-2: #6a6f96;
 
     --cells-header-color: #043d86;
+}
+
+.crystal_frost-theme {
+    --mobile-size: 991px;
+    --logo-fill: #31a409;
+    --logo-stroke: #31a409;
+    --bg: #75b5f270;
+    --hero-bg: rgba(0, 0, 0, 0);
+    --bg-header: #031c75a3;
+    --bg-hero-1: url('/img/frost/cloud.png');
+    --bg-hero-2: url('./img/frost/left.png');
+    --bg-hero-3: url('./img/frost/right.png');
+    --bg-hero-4: url('./img/center2.png');
+
+    --bg-hero-repeat-1: no-repeat;
+    --bg-hero-repeat-2: no-repeat;
+    --bg-hero-repeat-3: no-repeat;
+    --bg-hero-repeat-4: no-repeat;
+
+    --bg-hero-pos-1: center;
+    --bg-hero-pos-2: center left;
+    --bg-hero-pos-3: center right;
+    --bg-hero-pos-4: 10% 0;
+
+    --bg-hero-size-1: cover;
+    --bg-hero-size-2: auto;
+    --bg-hero-size-3: auto;
+    --bg-hero-size-4: auto;
+    --bg-hero-color: #5273dd;
+    --hero-color: #041a47;
+
+    --main-color-1: #ae5165;
+    //--main-color-2: #082663;
+    --main-color-2: #b81830;
+    --cells-header-color: #043d86;
+
 }
 
 .acid-1-theme {
