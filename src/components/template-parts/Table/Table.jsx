@@ -10,8 +10,6 @@ function Table(props) {
 
     return (
         <div className={barContainerClassName}>
-
-            <h2>Table (Random Data Source)</h2>
             <DataTable />
         </div>
     );

@@ -5,6 +5,7 @@ import SwiperLink from "../template-parts/SwiperLink/SwiperLink.jsx";
 import DataVisualisation from "../template-parts/DataVisualisation/DataVisualisation.jsx";
 import ChartsLib from "../template-parts/Charts/ChartsLib.jsx";
 import Honey from "../template-parts/Honey/Honey.jsx";
+import Dnd from "../template-parts/DndTree/Dnd.jsx";
 import styles from "./DevCard.module.css";
 import { Progress } from "progress";
 import { DndTree } from "dnd";
@@ -17,8 +18,8 @@ const DevCard = () => {
                 <SwiperLink />
                 <Honey />
                 <div style={{ paddingTop: "50px" }}>
-                    <h2>DND</h2>
-                    <DndTree />
+                    <h2>DND (Drag & Drop)</h2>
+                    <Dnd />
                 </div>
                 <DataVisualisation />
                 <ChartsLib />

@@ -6,15 +6,16 @@ import './DataVisualisation.css'
 const DataVisualisation = () => {
     const defaultColors = [
         "#df1148",
-        "#000",
+        "#000000",
         "#eeb1b1",
         "#60cbd2",
         "#5abcdd",
         "#24b813",
+        "#43193b"
     ];
 
     return (
-        <section className={'Progress'}>
+        <section className={"Progress"} style={{background: defaultColors[6]}}>
             <h2>Indicators</h2>
             <Progress defaultColors={defaultColors} />
         </section>

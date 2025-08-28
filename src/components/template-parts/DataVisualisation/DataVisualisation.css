@@ -1,5 +1,7 @@
 .Progress {
-    padding-block: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-block: 30px;
 }
 
 .MainBar-static {

@@ -1,3 +1,8 @@
 .card {
     background: var(--bg);
 }
+
+    .row {
+        background-color: #1c5077 !important;
+    }
+
